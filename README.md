@@ -12,6 +12,7 @@ searchWords.txt : words that need to be checked against the keywords.
 What we need to do is search for the words present in searchWords.txt and check if they are from the set of valid keywords (given in keywords.txt)
 
 How this needs to be done:
+
 1. Read the file keywords.txt and create a binary search tree out of it with every node of the tree containing a valid keyword.
 
 2. Spawn 100 threads that will split up the file searchWords.txt into separate sections and take care of the words they are responsible for.
